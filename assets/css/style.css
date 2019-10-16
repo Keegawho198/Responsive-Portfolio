@@ -165,6 +165,105 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 
+@media screen and (max-width: 765px) {
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 16px;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    
+  }
+  
+
+ .header a.active {
+  margin: auto;
+  width: 125%;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 32px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.header a {
+  float: left;
+  color: #777777;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px; 
+  margin-left: 30px;
+}
+
+.header-right {
+  float: right;
+  margin-left: 28px;
+  margin-right: 16px;
+}
+
+img{
+  position: relative;
+  margin-right: 280px;
+  margin-left: 30px;
+  margin-bottom: 7px;
+  height: 350px;
+  width: 350px;
+}
+
+.content {
+  max-width: 960px;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  background: white;
+  padding: 10px;
+  
+  top: 50px;
+}
+
+.container{
+  background: white;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 1800px;
+  text-align: center;
+  height: 200px;
+}
+
+.img1{
+  position: relative;
+  float: left;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.absolute1 p{
+  background: teal;
+  margin-left: 30px;
+  width: 350px;
+  position: absolute;
+  padding: 14px;
+  text-align: center;
+  bottom: 10;
+  color: white;
+  font-size: 20px;
+}
+
+a .nav-link{
+  color: black;
+}
+
+.bg-light{
+background-color: white;
+}
+
 
 
   @media screen and (max-width: 500px) {
